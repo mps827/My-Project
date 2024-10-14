@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.content {
+  margin-top: 191px;
+  min-height: calc(100vh - 191px - 216px);
+  z-index: 0;
+}
+
+.footer {
+  width: 100%;
+}

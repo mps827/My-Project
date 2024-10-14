@@ -1,0 +1,64 @@
+// Pages/newAd/Styles/NewAdCard.module.scss
+.icon {
+    color: white;
+    position: relative;
+    right: 5px;
+    top: 25px;
+}
+
+.title {
+    align-self: stretch;
+    color: var(--Grey, #AEAEAE);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.titleBox {
+    display: flex;
+    flex-direction: column;
+    width: 106px;
+    height: 106px;
+    padding: 10px 19px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px dashed var(--Grey, #AEAEAE);
+    margin-top: 25px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    width: 106px;
+    height: 106px;
+    gap: 10px;
+}
+
+.galleryIcon {
+    color: #AEAEAE;
+}
+
+
+.txt {
+    align-self: stretch;
+    color: var(--Grey, #AEAEAE);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
