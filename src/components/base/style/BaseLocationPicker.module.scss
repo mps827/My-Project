@@ -1,0 +1,10 @@
+.LocationContainer {
+  display: flex;
+  width: 600px;
+  height: 600px;
+  padding: 30px 30px 60px 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 12px;
+}
